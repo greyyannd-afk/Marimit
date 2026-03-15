@@ -317,7 +317,7 @@
   <p class="h-title">ANJAY PACARAN WOY</p>
   <p class="h-body">I LOVE YOU MAR.<br/>Kalo serius confirm ke @oWrath cepet.</p>
   <p class="h-body">Jujur gua bikin ini takut corny cuk —<br/>Semoga lu suka ya beb. :)</p>
-  <p class="h-sign">— yours, always &#129334;</p>
+  <p class="h-sign">— yours, always</p>
 </div>
 
 <script>
@@ -515,10 +515,10 @@ function step2() {
   showSec("s2");
   setTimeout(function() {
     var el = document.getElementById("s2t");
-    typeStr(el, "Sekarang\u00a0", 60, function() {
+    typeStr(el, "Sekarang", 60, function() {
       el._live = true;
       dateActive = true;
-      el.innerHTML = "Sekarang\u00a0<b>"+nowStr()+"</b>";
+      el.innerHTML = "Sekarang<b>"+nowStr()+"</b>";
       setTimeout(function() {
         hideSec("s2", step3);
       }, 2600);
